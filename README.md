@@ -1,4 +1,4 @@
-# hscc20_data_traces
+# LiDAR Data Traces for the F1/10 Autonomous Racing Car
 
 This repository contains the data traces collected during experiments for the paper titled "Case Study: Verifying the Safety of an Autonomous Racing Car with a Neural Network Controller", submitted to HSCC '20.
 
