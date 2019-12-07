@@ -6,7 +6,7 @@ All traces from experiments performed in the modified environment are in the "co
 
 Each line in a file corresponds to one LiDAR scan; each line is comma-separated in the following format:
 
-tv_sec,tv_usec, y1, ..., y1081, 
+tv_sec,tv_usec, y1, ..., y1081, crash
 
 where tv_sec and tv_usec are seconds and microseconds, respectively, since Jan. 1, 1970 (note that the board
-time is not updated, so relative times should be considered only), followed by the 1081 LiDAR rays for this scan. Note that LiDAR measurements are sampled at rouhgly 40Hz, but the controller is executed at roughly 10Hz (although both of these vary slightly from run to run).
+time is not updated, so relative times should be considered only), followed by the 1081 LiDAR rays for this scan. Note that LiDAR measurements are sampled at rouhgly 40Hz, but the controller is executed at roughly 10Hz (although both of these vary slightly from run to run). The binary variable crash indicates whether a crash has occurred so far in the current run.
