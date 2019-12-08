@@ -8,7 +8,7 @@ all_data = load('uncovered/DDPG_L21_64x64_Controller1/run1.csv');
 
 data = all_data(240, :)';
 
-indices = (2 + 20 * 4): (11.5 * 4):(1083 - 4 * 20);
+indices = (2 + 20 * 4): (11.5 * 4):(1084 - 4 * 20);
 
 data = data(indices);
 
